@@ -1,27 +1,17 @@
- Plant Disease Detection
-A deep learning-based approach to identifying plant diseases using a Convolutional Neural Network (CNN).
+Plant Disease Detection
+This project detects plant diseases using Deep Learning (CNNs) and TensorFlow. It utilizes an augmented dataset of plant images to classify diseases effectively.
 
- Overview
-This project classifies plant diseases using a CNN model trained on a dataset of healthy and diseased plant images. It leverages image preprocessing, data augmentation, and deep learning techniques to improve accuracy.
-
- Dataset
-Contains images of healthy and diseased plants.
-Augmented using rotation, flipping, and normalization.
 Dataset is taken from Kaggle: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset
 
- Tech Stack
-Python, TensorFlow, Keras, OpenCV, NumPy
-Model: CNN with Conv2D, MaxPooling2D, Flatten, and Dense layers.
+Project Details
+Dataset: Contains healthy and diseased plant images with multiple classes.
+Preprocessing: Images are resized to 224x224, augmented with rotation, flips, and rescaling.
+Data Loading: Uses ImageDataGenerator to prepare training, validation, and test sets.
+Model Training: CNN will be trained to classify plant diseases accurately.
 
-🚀 Running the Project in Google Colab
-Open the Colab Notebook:
+Next Steps
+ Implement CNN Model
+ Evaluate Performance (Accuracy, Loss)
+ Try Transfer Learning (EfficientNet, MobileNet)
 
-Google Colab Link
-
-Run all cells in PlantDiseaseDetection.ipynb
-
-Train and test the model.
-
- Results
-The CNN model achieves XX% accuracy on test data.
-Predictions and evaluation metrics are available in the notebook.
+ Run on Google Colab for GPU acceleration! 
